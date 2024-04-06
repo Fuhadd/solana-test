@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:solana_wallet_test/example.dart';
+import 'package:solana_wallet_test/flutter_phantom.dart';
 import 'package:solana_wallet_test/medium_example.dart';
+import 'package:solana_wallet_test/solana_pay_test.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -34,7 +36,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MainApp(),
+      // home: const MainApp(),
+      home: const MyHomePage(),
     );
   }
 }
