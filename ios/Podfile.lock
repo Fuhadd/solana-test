@@ -1,0 +1,36 @@
+PODS:
+  - Flutter (1.0.0)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - solana_wallet_adapter_ios (0.0.1):
+    - Flutter
+  - webcrypto (0.1.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - solana_wallet_adapter_ios (from `.symlinks/plugins/solana_wallet_adapter_ios/ios`)
+  - webcrypto (from `.symlinks/plugins/webcrypto/darwin`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  solana_wallet_adapter_ios:
+    :path: ".symlinks/plugins/solana_wallet_adapter_ios/ios"
+  webcrypto:
+    :path: ".symlinks/plugins/webcrypto/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  shared_preferences_foundation: b4c3b4cddf1c21f02770737f147a3f5da9d39695
+  solana_wallet_adapter_ios: 81801f1823b9a5870ead396706efd663b530e6fe
+  webcrypto: f44963fa2d88f93deea971a9f59f2e21c2301689
+
+PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
+
+COCOAPODS: 1.11.3
